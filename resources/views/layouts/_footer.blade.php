@@ -17,7 +17,7 @@
                 <div class="lg:w-full lg:flex lg:justify-between">
                     <div class="grow mb-6 lg:mb-0">
                         <p class="text-lg mb-4 lg:mb-6">
-                            Laravel.io
+                            laravel Pakistan
                         </p>
 
                         <div class="flex flex-wrap lg:flex-col lg:flex-no-wrap">
@@ -89,7 +89,7 @@
 
             <div class="text-gray-100 flex flex-col lg:flex-row">
                 <span class="mb-5 lg:mb-0 lg:mr-5">
-                    &copy; {{ date('Y') }} Laravel.io - All rights reserved.
+                    &copy; {{ date('Y') }} laravel Pakistan
                 </span>
 
                 <div class="flex flex-wrap lg:block">
