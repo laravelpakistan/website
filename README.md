@@ -17,7 +17,7 @@ Laravel Pakistan is a community of open source contributors.
 
 ## Maintainers
 
-The Laravel Pakistan's portal is currently maintained by [Zubair Ansari](https://github.com/officialzubairansari), [Haseeb Baig](https://github.com/mirzahaseebbaig).  and [Shoib Shams](https://github.com/shoaibshams/). If you have any questions please don't hesitate to create an issue on this repo.
+The Laravel Pakistan's portal is currently maintained by [Zubair Ansari](https://github.com/officialzubairansari), [Mirza Haseeb Baig](https://github.com/mirzahaseebbaig).  and [Shoib Shams](https://github.com/shoaibshams/). If you have any questions please don't hesitate to create an issue on this repo.
 
 ## Contributing
 
