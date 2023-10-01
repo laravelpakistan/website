@@ -89,7 +89,7 @@
 
             <div class="text-gray-100 flex flex-col lg:flex-row">
                 <span class="mb-5 lg:mb-0 lg:mr-5">
-                    &copy; {{ date('Y') }} Laravel Pakistans - All rights reserved.
+                    &copy; {{ date('Y') }} Laravel Pakistan - All rights reserved.
                 </span>
 
                 <div class="flex flex-wrap lg:block">
