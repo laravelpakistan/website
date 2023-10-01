@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="478c44ba-3f13-449a-91f5-777152e8c819" name="Changes" comment="updated footer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_ads/_banner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_ads/_banner.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_sponsors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_sponsors.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="478c44ba-3f13-449a-91f5-777152e8c819" name="Changes" comment="updated topbar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696135876750</updated>
       <workItem from="1696135877814" duration="2560000" />
-      <workItem from="1696144650816" duration="1485000" />
+      <workItem from="1696144650816" duration="2184000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -144,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696145813675</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated topbar">
+      <option name="closed" value="true" />
+      <created>1696146256371</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696146256371</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +170,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="added .htaccess file to public directory" />
     <MESSAGE value="updated footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated footer" />
+    <MESSAGE value="updated topbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated topbar" />
   </component>
 </project>
