@@ -1,0 +1,152 @@
+@import 'tailwindcss/base';
+
+@import 'highlight.js/styles/hybrid.css';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+@import 'articles.css';
+@import 'buttons.css';
+@import 'labels.css';
+@import 'modal.css';
+@import 'replies.css';
+@import 'tables.css';
+@import 'tags.css';
+
+@import url('https://rsms.me/inter/inter.css');
+
+.number-block {
+    box-shadow: 20px 0 40px 5px #e6f6f3 inset, -20px 0 10px 5px #e6f6f3 inset;
+}
+
+a > span > em {
+    @apply bg-lio-100;
+}
+
+.search {
+    @apply w-full;
+}
+
+@screen lg {
+    .search {
+        width: 720px;
+    }
+}
+
+pre .hljs {
+    @apply p-4;
+}
+
+.forum-content code {
+    background: #f8f8f8;
+    color: #333;
+}
+
+svg .primary {
+    @apply text-gray-800 fill-current;
+}
+
+svg .secondary {
+    @apply text-lio-500 fill-current;
+}
+
+[x-cloak] {
+    display: none;
+}
+
+.nav a {
+    @apply border-transparent text-gray-500;
+}
+
+.nav a:hover {
+    @apply text-gray-700 border-lio-500;
+}
+
+.nav a.active {
+    @apply border-lio-500 text-gray-900;
+}
+
+.nav a.active:focus {
+    @apply border-lio-600;
+}
+
+.nav .dropdown a {
+    @apply block px-4 py-2 text-sm leading-5 text-gray-700 transition duration-150 ease-in-out;
+}
+
+.nav .dropdown a:hover {
+    @apply bg-gray-100;
+}
+
+.nav .dropdown a:focus {
+    @apply outline-none bg-gray-100;
+}
+
+.member:after {
+    bottom: -1rem;
+    content: ' ';
+    display: block;
+    left: 7rem;
+    position: absolute;
+    border-color: #f9fafb transparent transparent transparent;
+    border-style: solid;
+    border-width: 0.5rem;
+}
+
+/** Choices.js **/
+.choices__input.choices__input--cloned {
+    @apply hidden;
+}
+
+.choices__inner {
+    @apply rounded-md border border-gray-300 w-full bg-white p-2 items-center !important;
+}
+
+.choices__list--dropdown {
+    @apply border border-gray-300 !important;
+}
+
+.choices__list--single {
+    @apply p-0 !important;
+}
+
+.choices__item {
+    @apply text-sm bg-gray-200 text-gray-700 cursor-pointer rounded-md px-2 py-1 my-0 border-0 !important;
+}
+
+.choices__item.choices__item--choice {
+    @apply rounded-none py-2 !important;
+}
+
+.choices__item.choices__item--choice.choices__item--selectable {
+    @apply bg-white rounded-none text-gray-700 p-2 !important;
+}
+
+.choices__item.choices__item--choice.choices__item--selectable:hover {
+    @apply bg-gray-200 !important;
+}
+
+.choices__item.choices__item--selectable {
+    @apply bg-lio-500 border-lio-500 text-white !important;
+}
+
+.choices__list--single > .choices__item.choices__item--selectable {
+    @apply bg-white text-gray-700 !important;
+}
+
+.choices__item.is-highlighted {
+    @apply bg-lio-600 border-lio-600 text-white !important;
+}
+
+.choices[data-type*='select-one']:after {
+    border-color: theme('colors.gray.500') transparent transparent transparent !important;
+}
+
+.choices[data-type*='select-one'] .choices__input {
+    @apply rounded-none border-b-2 border-gray-300 !important;
+}
+
+.editor li[aria-selected='true'] {
+    @apply bg-lio-100;
+}

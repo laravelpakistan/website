@@ -1,0 +1,15 @@
+/node_modules
+/public/build
+/public/css
+/public/fonts
+/public/hot
+/public/js
+/public/mix-manifest.json
+/public/storage
+/public/sitemap.xml
+/public/.htaccess
+/storage/*.key
+/vendor
+/.vscode
+.env
+.phpunit.result.cache

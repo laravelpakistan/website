@@ -1,0 +1,47 @@
+.button {
+    @apply bg-gray-300 text-gray-700 rounded px-4 py-2 block text-center cursor-pointer font-sans;
+}
+
+.button:hover {
+    @apply bg-gray-400;
+}
+
+.button-primary {
+    @apply text-white bg-lio-500 !important;
+}
+
+.button-primary:hover {
+    @apply bg-lio-600;
+}
+
+.button-danger {
+    @apply text-white bg-red-600 !important;
+}
+
+.button-danger:hover {
+    @apply bg-red-600;
+}
+
+.button-dark {
+    @apply text-white bg-gray-900;
+}
+
+.button-dark:hover {
+    @apply text-white bg-gray-800;
+}
+
+.button-full {
+    @apply w-full;
+}
+
+a.button:hover {
+    @apply no-underline;
+}
+
+.button-dropdown-left {
+    @apply rounded-r-none px-2;
+}
+
+.button-dropdown-right {
+    @apply rounded-l-none px-2;
+}

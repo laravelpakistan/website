@@ -1,0 +1,30 @@
+.label {
+    @apply px-2 py-1 rounded text-xs uppercase bg-gray-300 text-gray-700 px-2 py-1 cursor-pointer;
+}
+
+a.label:hover,
+button.label:hover {
+    @apply bg-gray-400 no-underline;
+}
+
+span.label:hover {
+    @apply cursor-auto;
+}
+
+.label-primary {
+    @apply bg-lio-500 text-white;
+}
+
+a.label-primary:hover,
+button.label-primary:hover {
+    @apply bg-lio-600;
+}
+
+.label-danger {
+    @apply bg-red-600 text-white;
+}
+
+a.label-danger:hover,
+button.label-danger:hover {
+    @apply bg-red-600;
+}

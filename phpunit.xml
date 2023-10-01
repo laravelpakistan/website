@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Integration">
+            <directory suffix="Test.php">./tests/Integration</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_KEY" value="base64:NXoQgjw2ZlOxnGbo5ZRhYgTdM6xLYsgYElNAgcTQJkE="/>
+        <env name="APP_URL" value="http://localhost"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="DB_DATABASE" value=":memory:"/>
+        <env name="MAIL_MAILER" value="array"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
+        <env name="SCOUT_DRIVER" value="null"/>
+        <env name="TELEGRAM_BOT_TOKEN" value="null"/>
+        <env name="TELEGRAM_CHANNEL" value="null"/>
+        <env name="FATHOM_SITE_ID" value="1234"/>
+        <env name="FATHOM_TOKEN" value="5678"/>
+    </php>
+</phpunit>
