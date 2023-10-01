@@ -17,7 +17,7 @@
                 <div class="lg:w-full lg:flex lg:justify-between">
                     <div class="grow mb-6 lg:mb-0">
                         <p class="text-lg mb-4 lg:mb-6">
-                            Laravel.io
+                            Laravel Pakistan
                         </p>
 
                         <div class="flex flex-wrap lg:flex-col lg:flex-no-wrap">
@@ -29,7 +29,7 @@
                                 Articles
                             </a>
 
-                            <a href="https://paste.laravel.io" class="w-1/2 text-gray-400 mb-4 hover:text-gray-200 lg:mb-6">
+                            <a href="https://paste.laravelpakistan.com" class="w-1/2 text-gray-400 mb-4 hover:text-gray-200 lg:mb-6">
                                 Pastebin
                             </a>
                         </div>
@@ -41,12 +41,12 @@
                         </p>
 
                         <div class="flex flex-wrap lg:flex-col lg:flex-no-wrap">
-                            <a href="https://twitter.com/laravelio" class="w-1/2 text-gray-400 mb-4 hover:text-gray-200 lg:mb-6">
+                            <a href="https://twitter.com/larapak" class="w-1/2 text-gray-400 mb-4 hover:text-gray-200 lg:mb-6">
                                 <x-icon-twitter class="text-white w-4 h-4 inline mr-3.5"/>
                                 Twitter
                             </a>
 
-                            <a href="https://github.com/laravelio" class="w-1/2 text-gray-400 mb-4 hover:text-gray-200 lg:mb-6">
+                            <a href="https://github.com/laravelpakistan" class="w-1/2 text-gray-400 mb-4 hover:text-gray-200 lg:mb-6">
                                 <x-icon-github class="text-white w-4 h-4 inline mr-3.5"/>
                                 GitHub
                             </a>
@@ -89,7 +89,7 @@
 
             <div class="text-gray-100 flex flex-col lg:flex-row">
                 <span class="mb-5 lg:mb-0 lg:mr-5">
-                    &copy; {{ date('Y') }} Laravel.io - All rights reserved.
+                    &copy; {{ date('Y') }} Laravel Pakistans - All rights reserved.
                 </span>
 
                 <div class="flex flex-wrap lg:block">

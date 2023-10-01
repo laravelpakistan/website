@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="478c44ba-3f13-449a-91f5-777152e8c819" name="Changes" comment="first commit" />
+    <list default="true" id="478c44ba-3f13-449a-91f5-777152e8c819" name="Changes" comment="added .htaccess file to public directory">
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696135876750</updated>
       <workItem from="1696135877814" duration="2560000" />
-      <workItem from="1696144650816" duration="850000" />
+      <workItem from="1696144650816" duration="1136000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -115,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696145434481</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1696145519950</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696145519950</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added .htaccess file to public directory">
+      <option name="closed" value="true" />
+      <created>1696145557320</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696145557320</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +154,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="added .htaccess file to public directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .htaccess file to public directory" />
   </component>
 </project>
