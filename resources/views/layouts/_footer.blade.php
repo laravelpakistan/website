@@ -7,7 +7,7 @@
         <div class="mx-4 md:mx-0">
             <div class="flex flex-col pb-8 mb-8 border-b lg:pb-16 border-gray-800 lg:flex-row">
                 <div class="w-full mb-6 lg:w-2/5 lg:pr-20 lg:mb-0">
-                    <img loading="lazy" src="{{ asset('images/laravelio-logo-white.svg') }}" alt="{{ config('app.name') }}" class="block mb-5" />
+                    <img loading="lazy" src="{{ asset('images/laravelpakistan.png') }}" alt="{{ config('app.name') }}" class="block mb-5" />
 
                     <p class="text-gray-100 lg:leading-loose">
                         The Laravel portal for problem solving, knowledge sharing and community building.
@@ -93,14 +93,8 @@
                 </span>
 
                 <div class="flex flex-wrap lg:block">
-                    <a href="{{ route('terms') }}" class="w-1/2 mb-4 hover:text-gray-200 lg:w-full lg:mb-0 lg:mr-8">
-                        Terms of service
-                    </a>
-                    <a href="{{ route('privacy') }}" class="w-1/2 mb-4 hover:text-gray-200 lg:w-full lg:mb-0 lg:mr-8">
-                        Privacy policy
-                    </a>
-                    <a href="https://github.com/sponsors/laravelio" class="w-1/2 hover:text-gray-200 lg:w-full lg:mb-0">
-                        Advertise
+                    <a href="https://www.behance.net/ubaidulsiddiqu" class="w-1/2 mb-4 hover:text-gray-200 lg:w-full lg:mb-0 lg:mr-8">
+                        Logo contributed by Ubaidullah Siddiqui
                     </a>
                 </div>
             </div>
