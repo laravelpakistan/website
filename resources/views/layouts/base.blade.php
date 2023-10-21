@@ -8,6 +8,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <link rel="icon" type="image/x-icon" href="/images/favicons/laravelpakistan.ico">
+
     <title>
         {{ isset($title) ? $title.' | ' : '' }}
         {{ config('app.name') }}
@@ -26,7 +28,7 @@
     </script>
 
     @include('feed::links')
-    @include('layouts._favicons')
+    {{--@include('layouts._favicons')--}}
     @include('layouts._social')
     @include('layouts._fathom')
 
