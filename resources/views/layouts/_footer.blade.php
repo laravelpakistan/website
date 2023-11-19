@@ -7,7 +7,7 @@
         <div class="mx-4 md:mx-0">
             <div class="flex flex-col pb-8 mb-8 border-b lg:pb-16 border-gray-800 lg:flex-row">
                 <div class="w-full mb-6 lg:w-2/5 lg:pr-20 lg:mb-0">
-                    <img loading="lazy" src="{{ asset('images/laravelpakistan.png') }}" alt="{{ config('app.name') }}" class="block mb-5" />
+                    <img loading="lazy" src="{{ asset('images/laravelpakistan-light.png') }}" alt="{{ config('app.name') }}" class="block mb-5" />
 
                     <p class="text-gray-100 lg:leading-loose">
                         The Laravel portal for problem solving, knowledge sharing and community building.
