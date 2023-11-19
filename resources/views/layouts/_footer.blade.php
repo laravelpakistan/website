@@ -91,12 +91,6 @@
                 <span class="mb-5 lg:mb-0 lg:mr-5">
                     &copy; {{ date('Y') }} Laravel Pakistan - All rights reserved.
                 </span>
-
-                <div class="flex flex-wrap lg:block">
-                    <a href="https://www.behance.net/ubaidulsiddiqu" class="w-1/2 mb-4 hover:text-gray-200 lg:w-full lg:mb-0 lg:mr-8">
-                        Logo contributed by Ubaidullah Siddiqui
-                    </a>
-                </div>
             </div>
         </div>
     </div>

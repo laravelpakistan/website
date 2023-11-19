@@ -160,7 +160,7 @@
     <!-- Laravel.io in numbers -->
     <section class="mt-12 container mx-auto px-4 lg:mt-40 lg:px-16">
         <h2 class="text-4xl leading-tight font-bold text-center text-gray-900 mb-6 lg:mb-12">
-            Laravel.io in numbers
+            Laravel Pakistan in numbers
         </h2>
 
         <div class="flex flex-col lg:mb-10 lg:flex-row lg:gap-x-8">

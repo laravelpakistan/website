@@ -16,7 +16,7 @@
 
         <div class="mt-12 grid grid-cols-2 gap-y-8 lg:grid-cols-3">
             <div class="col-span-2 flex justify-center lg:col-span-1">
-                <x-sponsor-logo url="https://usefathom.com/ref/7A8QGC" logo="{{ asset('images/sponsors/fathom.png') }}" company="Fathom" />
+                <x-sponsor-logo url="https://arcoticsolutions.com/" logo="{{ asset('images/sponsors/arcoticsolutions.png') }}" company="Arcotic Solutions" />
             </div>
 
             <div class="col-span-2 flex justify-center lg:col-span-1">
