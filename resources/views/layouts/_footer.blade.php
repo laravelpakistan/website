@@ -89,10 +89,7 @@
 
             <div class="text-gray-100 flex flex-col lg:flex-row">
                 <span class="mb-5 lg:mb-0 lg:mr-5">
-                    &copy; {{ date('Y') }} Laravel Pakistan - All rights reserved. | Managed by <a href="https://arcoticsolutions.com" class="w-1/2 text-gray-400 hover:text-gray-200">
-                                    <img loading="lazy" src="{{ asset('images/podcast.png') }}" alt="Arcotic Solutions" class="w-4 h-4 inline mr-2" />
-                                    Arcotic Solutions
-                                </a>
+                    &copy; {{ date('Y') }} Laravel Pakistan - All rights reserved. | Managed by <a href="https://arcoticsolutions.com" class="w-1/2 text-gray-400 hover:text-gray-200">Arcotic Solutions</a>
                 </span>
             </div>
         </div>
