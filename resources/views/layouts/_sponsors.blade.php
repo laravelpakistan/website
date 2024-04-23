@@ -15,9 +15,6 @@
         </div> --}}
 
         <div class="mt-12 grid grid-cols-2 gap-y-8 lg:grid-cols-3">
-            <div class="col-span-2 flex justify-center lg:col-span-1">
-                <x-sponsor-logo url="https://arcoticsolutions.com/" logo="{{ asset('images/sponsors/arcoticsolutions.png') }}" company="Arcotic Solutions" />
-            </div>
 
             <div class="col-span-2 flex justify-center lg:col-span-1">
                 <x-sponsor-logo url="https://forge.laravel.com/" logo="{{ asset('images/sponsors/forge.png') }}" company="Forge" />
