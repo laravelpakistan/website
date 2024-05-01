@@ -13,7 +13,7 @@
                 </x-info-banner>
             @elseif ($article->isPublished() && $article->isAuthoredBy(Auth::user()))
                 <x-info-banner>
-                    Your article is now published and cannot be edited anymore. If you want to perform any changes to the article, please email <a href="mailto:hello@laravel.io">hello@laravel.io</a>
+                    Your article is now published and cannot be edited anymore. If you want to perform any changes to the article, please email <a href="mailto:support@laravelpakistan.com">support@laravelpakistan.com</a>
                 </x-info-banner>
             @endif
         @endauth
